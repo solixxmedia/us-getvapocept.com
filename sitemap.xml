@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://us-getvapocept.com/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Main VapoCept Review Page -->
+    <url>
+        <loc>https://us-getvapocept.com/</loc>
+        <lastmod>2026-09-20</lastmod>
+    </url>
+
+    <!-- Privacy Policy -->
+    <url>
+        <loc>https://us-getvapocept.com/privacy.html</loc>
+        <lastmod>2026-09-20</lastmod>
+    </url>
+
+    <!-- Terms & Conditions -->
+    <url>
+        <loc>https://us-getvapocept.com/terms.html</loc>
+        <lastmod>2026-09-20</lastmod>
+    </url>
+
+    <!-- Disclaimer -->
+    <url>
+        <loc>https://us-getvapocept.com/disclaimer.html</loc>
+        <lastmod>2026-09-20</lastmod>
+    </url>
 
 </urlset>
