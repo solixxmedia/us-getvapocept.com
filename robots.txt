@@ -1,4 +1,61 @@
+# ==========================================
+# VapoCept - Robots.txt
+# Allow search engines and AI crawlers
+# ==========================================
+
+# General crawler access
 User-agent: *
 Allow: /
 
+# Google Search
+User-agent: Googlebot
+Allow: /
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /
+
+# Google AI / Gemini-related crawling
+User-agent: Google-Extended
+Allow: /
+
+# Google Ads
+User-agent: AdsBot-Google
+Allow: /
+
+# Bing / Microsoft
+User-agent: Bingbot
+Allow: /
+
+# OpenAI / ChatGPT Search
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI Ads crawler
+User-agent: OAI-AdsBot
+Allow: /
+
+# Common AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Sitemap
 Sitemap: https://us-getvapocept.com/sitemap.xml
